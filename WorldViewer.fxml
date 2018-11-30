@@ -29,7 +29,7 @@
             <Button fx:id="PickUpButton" layoutX="466.0" layoutY="338.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="67.0" style="-fx-background-color: plum;" text="Pick Up" />
             <Button fx:id="PutDownButton" layoutX="555.0" layoutY="338.0" mnemonicParsing="false" style="-fx-background-color: plum;" text="Put down" />
             <ChoiceBox fx:id="ItemsCarried" layoutX="464.0" layoutY="55.0" prefWidth="150.0" style="-fx-background-color: plum;" />
-            <TextField fx:id="MessageField" alignment="CENTER" editable="false" layoutX="7.0" layoutY="14.0" prefHeight="25.0" prefWidth="615.0" style="-fx-background-color: plum;" text="MessageField" />
+            <TextField fx:id="MessageField" alignment="CENTER" editable="false" layoutX="7.0" layoutY="14.0" prefHeight="25.0" prefWidth="615.0" style="-fx-background-color: plum;" />
             <ImageView fx:id="imageView" fitHeight="284.0" fitWidth="305.0" layoutX="121.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true" />
             <ImageView fx:id="itemView" fitHeight="204.0" fitWidth="163.0" layoutX="466.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true" />
       </children>
