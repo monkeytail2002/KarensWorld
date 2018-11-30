@@ -16,22 +16,22 @@
       <children>
             <MenuButton layoutX="7.0" layoutY="55.0" mnemonicParsing="false" style="-fx-background-color: plum;" text="MenuButton">
                <items>
-                  <MenuItem mnemonicParsing="false" text="IC World" />
+                  <MenuItem fx:id="ICWorld" mnemonicParsing="false" text="IC World" />
                </items>
             </MenuButton>
-            <Button layoutX="184.0" layoutY="360.0" mnemonicParsing="false" style="-fx-background-color: plum;" text="Right">
+            <Button fx:id="RightButton" layoutX="315.0" layoutY="360.0" mnemonicParsing="false" style="-fx-background-color: plum;" text="Right">
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Button layoutX="320.0" layoutY="360.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="45.0" style="-fx-background-color: plum;" text="Left" />
-            <Button layoutX="244.0" layoutY="360.0" mnemonicParsing="false" style="-fx-background-color: plum;" text="Forward" />
-            <Button layoutX="562.0" layoutY="338.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="67.0" style="-fx-background-color: plum;" text="Pick Up" />
-            <Button layoutX="466.0" layoutY="338.0" mnemonicParsing="false" style="-fx-background-color: plum;" text="Put down" />
-            <ChoiceBox layoutX="464.0" layoutY="55.0" prefWidth="150.0" style="-fx-background-color: plum;" />
-            <TextField alignment="CENTER" editable="false" layoutX="7.0" layoutY="14.0" prefHeight="25.0" prefWidth="615.0" style="-fx-background-color: plum;" />
-            <ImageView fitHeight="284.0" fitWidth="305.0" layoutX="121.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fitHeight="204.0" fitWidth="163.0" layoutX="466.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true" />
+            <Button fx:id="LeftButton" layoutX="189.0" layoutY="360.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="45.0" style="-fx-background-color: plum;" text="Left" />
+            <Button fx:id="ForwardButton" layoutX="244.0" layoutY="360.0" mnemonicParsing="false" style="-fx-background-color: plum;" text="Forward" />
+            <Button fx:id="PickUpButton" layoutX="466.0" layoutY="338.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="67.0" style="-fx-background-color: plum;" text="Pick Up" />
+            <Button fx:id="PutDownButton" layoutX="555.0" layoutY="338.0" mnemonicParsing="false" style="-fx-background-color: plum;" text="Put down" />
+            <ChoiceBox fx:id="ItemsCarried" layoutX="464.0" layoutY="55.0" prefWidth="150.0" style="-fx-background-color: plum;" />
+            <TextField fx:id="MessageField" alignment="CENTER" editable="false" layoutX="7.0" layoutY="14.0" prefHeight="25.0" prefWidth="615.0" style="-fx-background-color: plum;" text="MessageField" />
+            <ImageView fx:id="imageView" fitHeight="284.0" fitWidth="305.0" layoutX="121.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="itemView" fitHeight="204.0" fitWidth="163.0" layoutX="466.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true" />
       </children>
     </AnchorPane>
   </children>
